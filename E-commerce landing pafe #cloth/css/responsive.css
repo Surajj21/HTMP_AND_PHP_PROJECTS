@@ -1,0 +1,81 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .content{
+        display: none;
+    }
+    h3 {
+        border-bottom: 2px solid orange;
+        width: 30%;
+        font-size: 25px;
+    }
+    .social a i{
+        border-radius: 50%;
+        font-size: 18px;
+        padding: 12px;
+        color: white;
+        margin: auto 10px;
+    }
+    #footer h4{
+        /* display: none; */
+    }
+
+}
+/* mobile=================================== */
+@media only screen and (max-width: 767px){
+
+    #main_nav img{
+        width:60px
+
+    }
+    h3 {
+        border-bottom: 2px solid orange;
+        width: 70%;
+        font-size: 30px;
+    }
+    .content{
+        width: 87%;
+        position: absolute;
+        top: 110px;
+    }
+    .content h2{
+        font-size: 25px; 
+    }
+/* ===========foote= */
+
+    #form_news{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #form_news form input {
+      margin: auto;
+      margin-bottom: 10px;
+        padding: 10px;
+    }
+    #form_news form button {
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     margin-bottom: 10px;
+     padding: 4px 8px;
+     font-size: 16px;
+    }
+     #form_news form input::placeholder{
+         padding: 0;
+     }
+     .social a i{
+         border-radius: 50%;
+         font-size: 22px;
+         padding: 12px;
+         color: white;
+         margin: auto 10px;
+     }
+     #new-arivel h2{
+         font-size: 25px;
+     }
+     .copy p{
+        padding: 0;
+        font-size: 12px;
+    }
+}
