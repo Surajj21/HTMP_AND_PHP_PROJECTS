@@ -1,0 +1,99 @@
+/*======================STYLESHEET TWO====================*/
+
+body{text-transform: uppercase;height:cover;margin:0;padding:;background:#e6e6e6;}
+
+.first {min-width:100hw;display:flex;position:relative;align-items:center;
+justify-content:center;height:cover;background:#090909;}
+.content{margin-bottom:50px;padding:90px;text-align:center;}
+.content h3{color:#fff;text-transform:uppercase;align-items:center;justify-content:center;font-size:60px;}
+.content h3 span{color:#3388d6;font-weight:bold;}
+.brandname {margin-left:50px;margin-bottom:-30px;}
+.brandname h4{font-size:25px;color:#090909;display:flex;}
+.brandname h4:hover{color:#f5af5b;}
+
+/*--------------about section-----------*/
+
+.second{min-width:100hw;}
+.aboutc{height:cover;width:100%;display:flex;
+        position:relative;justify-content:center;color:#fff;}
+.abh{font-style:oblique;font-size:42px;padding-bottom:5px;text-align:center;}
+.term{background:#a16b0e;text-align: center;width:50%;padding:50px;font-weight:500;}
+.textu{font-weight:450;word-spacing:2px;letter-spacing:1px;font-size:20px;}
+.img1{background:#000;background-position:center;width:50%;}
+.img1 img{opacity:0.7;width:100%;height:100%;outline:1px solid black;}
+img{opacity:0.9;background:#000;}
+img:hover{opacity:1;}
+
+/*------------------our service-------------*/
+
+
+.third{max-height:cover;width:100%;background:#821025;color:#ffffff;}
+.services {position:relative;text-align:center;justify-content:center;padding:100px;}
+.text{letter-spacing:1px;word-spacing:2px;font-size:10px;}
+.servbx{margin-top:50px;width:100%;display:flex; justify-content:center;align-items: center;}
+.imgbx{margin:10px;align-items:center;justify-content:center;}
+.imgbx img{align-items: center;justify-content:center;
+           width:100%;height:100%;}
+
+/*---------------------apps using-----------------*/
+
+
+.forth{background:#2e6eb9;min-height:cover;width:100%;}
+.tech {padding:100px;text-align:center;}
+.ourtech {display:flex;justify-content:center;align-items:center;}
+.para{margin:0 20px;width:70%;}
+.para p{font-weight:bold;letter-spacing:1px;word-spacing:2px;font-size:20px;}
+.imgbox{padding:0 2px;height:100%;width:40%;}
+.imgbox img{background:transparent;width:100%;height:100%;}
+.apps{display:flex;}
+
+/*-----------------------feedback---------------------*/
+
+.fifth {width: cover;}
+.clients {padding:100px 50px;background:#c7b818;}
+.feedback {justify-content:center;align-items: auto;
+            position:relative;display:flex;}
+.client1{border-radius:20px;background:#e6e6e6;width:50%;margin:20px;}
+.client2 {border-radius:20px;background:#e6e6e6;width:50%;margin:20px;}
+.feedback p{padding:0 30px;padding-top:20px;color: black;font-size:17px;
+           text-align:center;font-weight:bold;font-style: italic;}
+.feedback h4{text-align:right;color:red;margin-right:30px; margin-top:0;padding:0;font-size:25px;}
+.feedback h4:hover{color:blue;}
+
+/*-------------------------contact us---------------
+
+.sixth {max-height:cover;min-width:100hw;background:pink;}
+.contact {padding:100px;justify-content: center;align-items:center;}
+.contact p{text-align:center;word-spacing:2px;letter-spacing:1px;font-size:10px ;font-weight:500;}
+.contact h4{text-align:center;padding-bottom:5px;border-bottom:2px solid black;font-size:30px;font-weight:500;}
+*/
+/*----------------------contact form----------------*/
+
+.seven {height:cover;width:100hw;}
+.form {justify-content:center;position:relative;align-items:center;padding:100px;}
+.inputbx {align-items:center;justify-content:center;}
+.form h2{color:black;}
+.inputbx input::placeholder{color:black;font-weight:500;font-size:25px;}
+.inputbx textarea::placeholder{color:black;font-weight:610;font-size:10px;}
+.inputbx  input{text-transform:uppercase;width:100%;font-size:25px;margin-top:40px;border:none;
+                 width:100%;background:transparent;
+                 padding:10px 0;box-shadow:none;outline:none;border-bottom:3px solid black;}
+.inputbx textarea {text-transform:uppercase;font-size:10px;margin-top:40px;border:none;width:100%;
+                   background:transparent;padding:20px 0;box-shadow:none;outline:none;
+                   border-bottom:3px solid black;}
+.send{width:100%;display:flex;align-items:center;justify-content:center;}
+.inputbx  input[type="submit"]{border-radius:100px;font-size:25px;padding:10px 40px;
+                         border:none;background:transparent;border:3px solid black;
+                         text-transform:uppercase;max-width:cover;letter-spacing:4px;cursor:pointer;
+                         font-weight:bold;color: black;transition:1;}
+.inputbx  input[type="submit"]:hover{background:black;color:white;font-size:28px;}
+
+/*------------------Name od deaigner-------------------*/
+
+.brand {margin-top:-50px;margin-bottom:50px;font-size:7px;text-align:center;font-weight:bold;}
+.brand span{text-decoration:underline;font-size:9px;font-style:italic;}
+ 
+/*-------------------------------title section--------------------*/
+ 
+ .heading{width:cover;font-style:oblique;font-size:30px;padding-bottom:5px;text-align:center;}
+ .heading2 {font-style:oblique;font-size:17px;text-align:center;padding-bottom:5px;}
